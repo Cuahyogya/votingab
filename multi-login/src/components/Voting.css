@@ -1,0 +1,67 @@
+/* Voting.css */
+
+.voting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #c90317, #0984e3);
+  text-align: center;
+  padding: 10px;
+  margin-top: 70px;
+  position: relative;
+}
+.voting-container h2 {
+  margin-top: 10px;
+  color: rgb(240, 254, 255);
+}
+.voting-form {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.voting-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  width: 300px; /* Sesuaikan lebar sesuai keinginan Anda */
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.candidate-option img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.candidate-options {
+  display: flex;
+  flex-direction: row; /* Mengatur elemen anak berjejer ke samping */
+  flex-wrap: wrap; /* Untuk mengatur pemindahan gambar ke baris berikutnya jika melebihi lebar container */
+  justify-content: center; /* Mengatur elemen-anak menjadi berada di tengah secara horizontal */
+  align-items: center; /* Mengatur elemen-anak menjadi berada di tengah secara vertikal */
+  margin-top: 20px; /* Spasi antara form-group dan candidate-options */
+}
+
+.candidate-option {
+  margin: 20px; /* Spasi antara setiap candidate-option */
+  margin-top: 30px;
+}
+
+button.btn {
+  width: 150px; /* Sesuaikan lebar sesuai keinginan Anda */
+  padding: 10px;
+  margin-top: 20px; /* Spasi antara tombol dengan pilihan kandidat */
+  align-items: center;
+  background-color:#47cc4b;
+  border-radius: 10px;
+}

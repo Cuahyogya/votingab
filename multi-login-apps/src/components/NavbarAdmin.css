@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: lightsteelblue;
+  }
+  
+  .left-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-container img {
+    height: 40px;
+  }
+  
+  .navbar .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px; /* Tambahkan margin kanan sesuai keinginan Anda */
+  }
+  
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
